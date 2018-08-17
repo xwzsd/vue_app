@@ -1,0 +1,9 @@
+<%= content_tag :div, id: "information", data: { user_profile: @user_profile.as_json } do %>
+<% end %>
+<div id="user-profiles-edit-view">
+  <user-profiles-edit-view>
+  </user-profiles-edit-view>
+</div>
+
+<%= javascript_pack_tag 'user_profiles/edit'%>
+<%= stylesheet_pack_tag 'user_profiles/edit'%>
