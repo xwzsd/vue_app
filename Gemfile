@@ -38,6 +38,9 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'devise', '~> 4.4', '>= 4.4.3'
 gem 'jwt', '~> 2.1'
+gem 'devise-jwt', '~> 0.5.7'
+gem 'figaro', '~> 1.1', '>= 1.1.1'
+gem 'active_model_serializers', '~> 0.10.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
