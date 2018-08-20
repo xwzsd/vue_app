@@ -1,4 +1,6 @@
 class UserProfilesController < ApplicationController
+  before_action :authenticate_user!
+
   def edit
     user = User.find_by(id: params[:id])
     @user_profile = user.user_profile
